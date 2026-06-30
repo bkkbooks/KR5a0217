@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0217/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0217/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清天寶齋初夜儀
+  date: '2015-08-28 23:41:00.857532'
+  source:
+    repository: kanripo
+    path: KR5a0217
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0217_000-ZTDZ.yaml, hash: 'sha256:387fd0747bda7cefb3cf05a742ab8b1799d4fd2cae006eaa7345d0aee963cf7b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0217_000-ZTDZ.markers.yaml, hash: 'sha256:66db0203fa0d9d6aff900f7dbd57a4fb2bf15b8df5a314843d0ba34c228b2618'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0217_SJB_000-030600a
+    span:
+    - body
+    - 0
+    - 2676
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f47d0f3b5a231d1370c114cd84db39f0cb90ac256d7ee497839e8f57de088f21
